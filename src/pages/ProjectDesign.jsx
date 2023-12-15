@@ -1,16 +1,16 @@
 import Navbar from "../components/Layouts/Navbar";
 import Footer from "../components/Layouts/Footer";
 import ProjectContent from "../components/Fragments/ProjectContent";
-import ProjectContentWeb from "../components/Layouts/ProjectContentWeb";
+import ProjectContentDesign from "../components/Layouts/ProjectContentDesign";
 
-const Project = () => {
+const ProjectDesign = () => {
   return (
     <>
       <Navbar />
-      <ProjectContent content={<ProjectContentWeb />} height="300vh" />
+      <ProjectContent content={<ProjectContentDesign />} />
       <Footer />
     </>
   );
 };
 
-export default Project;
+export default ProjectDesign;

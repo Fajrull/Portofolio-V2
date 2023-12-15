@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
@@ -12,12 +12,12 @@ const Homepage = () => {
       </div>
 
       <div className="hero-btn">
-        <a href="/pages/contact.html">
+        <Link to="/contact">
           <button>
             Contact Me
             <i className="fa-solid fa-arrow-down"></i>
           </button>
-        </a>
+        </Link>
         <a href="assets/cv/cv.pdf" target="_blank" rel="noopener noreferrer">
           <button>
             Download CV

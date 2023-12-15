@@ -1,8 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Project from "../pages/Project";
+import ProjectApi from "../pages/ProjectApi";
+import ProjectDesign from "../pages/ProjectDesign";
 import Skills from "../pages/Skills";
 import Certifications from "../pages/Certifications";
 import Contact from "../pages/Contact";
@@ -13,6 +16,8 @@ const AppRouter = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Project />} />
+      <Route path="/projects-api" element={<ProjectApi />} />
+      <Route path="/projects-design" element={<ProjectDesign />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/certifications" element={<Certifications />} />
       <Route path="/contact" element={<Contact />} />

@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutContent = () => {
   return (
     <section className="about" id="about">
