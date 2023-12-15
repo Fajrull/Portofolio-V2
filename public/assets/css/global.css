@@ -1,0 +1,487 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Header Start */
+
+header.navbar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 620px;
+  height: 52px;
+  margin-inline: auto;
+  margin-block: 32px;
+  border: 2px solid #71c9ce;
+  border-radius: 99px;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #a6e3e9, #cbf1f5, #e3fdfd);
+}
+
+header.navbar nav ul {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+header.navbar nav ul li a {
+  color: #222831;
+  padding: 6px 18px;
+  text-decoration: none;
+}
+
+header.navbar nav ul li a:hover {
+  color: #e3fdfd;
+  background-color: #71c9ce;
+  border-radius: 99px;
+  padding: 6px 18px;
+  transition: 0.3s;
+}
+
+/* Header End */
+
+/* Hero Start */
+
+section.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: radial-gradient(#a6e3e9, #cbf1f5, #e3fdfd);
+}
+
+section.hero .hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+section.hero .hero-title h1 {
+  font-size: 2.25rem;
+}
+
+section.hero .hero-title p {
+  font-size: 1.5rem;
+}
+
+section.hero .hero-title span {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+section.hero .hero-title img {
+  width: 160px;
+  height: auto;
+  border: 3px solid #71c9ce;
+  border-radius: 100%;
+  background-image: linear-gradient(to right, #71c9ce, #a6e3e9, #e3fdfd);
+}
+
+section.hero .hero-btn button {
+  width: 225px;
+  height: 50px;
+  margin: 32px 12px;
+  padding: 12px;
+  border-radius: 99px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.125rem;
+  background-image: linear-gradient(to right, #a6e3e9, #cbf1f5, #e3fdfd);
+  color: black;
+}
+
+section.hero .hero-btn button:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+section.hero .hero-btn button i {
+  margin-left: 12px;
+}
+
+.hero-icons .fa-brands {
+  font-size: 24px;
+  color: black;
+  border: 2px solid #71c9ce;
+  border-radius: 100%;
+  margin-inline: 12px;
+  padding: 12px;
+  background-image: linear-gradient(to right, #a6e3e9, #cbf1f5, #e3fdfd);
+}
+
+.fa-brands:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+/* Hero End */
+
+/* About Start */
+section.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: radial-gradient(#e3fdfd, #cbf1f5, #e3fdfd);
+}
+
+section.about h1 {
+  text-align: center;
+  margin-bottom: 62px;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+section.about .about-page .about-description {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+}
+
+section.about .about-page .about-description p {
+  width: 50%;
+}
+
+section.about .about-page .about-description img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* About End */
+
+/* Project Start */
+section.project {
+  width: 100%;
+  height: auto;
+  background-image: radial-gradient(#e3fdfd, #cbf1f5, #e3fdfd);
+}
+
+section.project .project-title h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+section.project .project-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-inline: 150px;
+  gap: 62px;
+}
+
+section.project .project-page .project-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #71c9ce;
+  box-shadow: 6px 6px 6px 8px #71c9ce;
+  width: 550px;
+  height: 550px;
+  padding: 6px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #a6e3e9, #cbf1f5, #e3fdfd);
+}
+
+section.project .project-page .project-card img {
+  border-radius: 10px 10px 0 0;
+}
+
+section.project .project-page .project-card .project-description {
+  padding: 12px;
+}
+
+section.project .project-page .project-card .project-description h1 {
+  margin: 12px 0;
+}
+
+section.project .project-page .project-card .project-icons img {
+  width: 30px;
+  margin: 32px 12px 12px 12px;
+}
+
+section.project .project-page .project-card .project-btn {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+section.project .project-page .project-card .project-btn button {
+  width: 150px;
+  padding: 8px;
+  margin: 32px 18px;
+  font-size: 1.125rem;
+  color: black;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #e3fdfd, #cbf1f5, #a6e3e9);
+  box-shadow: 3px 2px 2px 3px #222831;
+}
+
+section.project .project-page .project-card .project-btn button:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+section.project .project-page .project-card .project-btn button i {
+  padding-inline: 8px;
+}
+
+/* Project End */
+
+/* Skills Start */
+section.skills {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(#e3fdfd, #cbf1f5, #e3fdfd);
+}
+
+section.skills .skills-page h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+section.skills .skills-page .skills-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  gap: 62px;
+  margin-top: 62px;
+}
+
+section.skills .skills-page .skills-card img {
+  width: 140px;
+  border: 1px solid #71c9ce;
+  padding: 32px;
+  border-radius: 12px;
+  background-image: linear-gradient(to right, #a6e3e9, #cbf1f5, #a6e3e9);
+  box-shadow: 12px 12px 4px 6px #71c9ce;
+}
+
+section.skills .skills-page .skills-card img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+/* Skills End */
+
+/* Certifications Start */
+section.sertif {
+  height: auto;
+  background-image: radial-gradient(#e3fdfd, #cbf1f5, #e3fdfd);
+}
+
+section.sertif .sertif-title h1 {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 60px;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+section.sertif .sertif-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-inline: 50px;
+  gap: 62px;
+}
+
+section.sertif .sertif-page .sertif-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #71c9ce;
+  box-shadow: 6px 6px 6px 8px #71c9ce;
+  width: 400px;
+  height: 510px;
+  padding: 6px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #a6e3e9, #cbf1f5, #e3fdfd);
+}
+
+section.sertif .sertif-page .sertif-card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+section.sertif .sertif-page .sertif-card img {
+  border-radius: 10px 10px 0 0;
+}
+
+section.sertif .sertif-page .sertif-card .sertif-description {
+  padding: 12px;
+}
+
+section.sertif .sertif-page .sertif-card .sertif-description h3 {
+  margin: 12px 0;
+}
+
+section.sertif .sertif-page .sertif-card .sertif-description span {
+  font-size: 18px;
+  opacity: 50%;
+}
+
+section.sertif .sertif-page .sertif-card .sertif-description p {
+  margin-top: 12px;
+}
+/* Certifications End */
+
+/* Contact Start */
+section.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: radial-gradient(#a6e3e9, #cbf1f5, #e3fdfd);
+}
+
+section.contact .contact-page {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.contact .contact-page .contact-top .description-top {
+  text-align: center;
+}
+
+section.contact .contact-page h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding-top: 100px;
+  padding-bottom: 32px;
+}
+
+section.contact .contact-page .contact-description {
+  text-align: center;
+}
+
+section.contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.contact form .form-top {
+  display: flex;
+  margin: 32px;
+}
+
+section.contact form .form-top label {
+  margin-left: 18px;
+}
+
+section.contact form .form-top input {
+  width: 308px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 18px;
+  border: none;
+}
+
+section.contact form .form-bottom {
+  margin-left: 32px;
+}
+
+section.contact form .form-bottom label {
+  margin-left: 18px;
+}
+
+section.contact form .form-bottom textarea {
+  width: 650px;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 18px;
+  border: none;
+}
+
+section.contact form .contact-btn button {
+  width: 150px;
+  height: 50px;
+  margin-right: 500px;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 99px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.125rem;
+  background-image: linear-gradient(to right, #71c9ce, #cbf1f5, #71c9ce);
+  color: #222831;
+}
+
+section.contact form .contact-btn button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+section.contact form .contact-btn button i {
+  padding-inline: 12px;
+}
+
+/* Contact End
+
+/* Footer Start */
+footer {
+  padding: 18px;
+  text-align: center;
+  background-image: radial-gradient(#e3fdfd, #cbf1f5, #e3fdfd);
+}
+/* Footer End */
