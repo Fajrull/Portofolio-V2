@@ -1,13 +1,12 @@
 import Navbar from "../components/Layouts/Navbar";
 import Footer from "../components/Layouts/Footer";
-import ProjectContent from "../components/Fragments/ProjectContent";
-import ProjectContentWeb from "../components/Layouts/ProjectContentWeb";
+import ProjectContent from "../components/Layouts/ProjectContent";
 
 const Project = () => {
   return (
     <>
       <Navbar />
-      <ProjectContent content={<ProjectContentWeb />} height="300vh" />
+      <ProjectContent />
       <Footer />
     </>
   );

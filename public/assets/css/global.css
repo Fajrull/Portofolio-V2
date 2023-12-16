@@ -203,7 +203,7 @@ section.about .about-page .about-description img {
 /* Project Start */
 section.project {
   width: 100%;
-  height: 300vh;
+  padding-bottom: 60px;
   background-image: radial-gradient(#e3fdfd, #cbf1f5, #e3fdfd);
 }
 
@@ -294,6 +294,15 @@ section.project .project-page .project-card .project-btn button i {
   border: none;
   cursor: pointer;
   background-image: linear-gradient(to right, #e3fdfd, #cbf1f5, #a6e3e9);
+  box-shadow: 3px 2px 2px 3px #71c9ce;
+}
+
+.btn-project:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.active2 {
   box-shadow: 3px 2px 2px 3px #222831;
 }
 
@@ -302,7 +311,7 @@ section.project .project-page .project-card .project-btn button i {
 /* Skills Start */
 section.skills {
   width: 100%;
-  height: 120vh;
+  padding-bottom: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -312,6 +321,7 @@ section.skills {
 section.skills .skills-page h1 {
   text-align: center;
   font-size: 2rem;
+  padding-top: 150px;
 }
 
 section.skills .skills-page .skills-card {
@@ -340,7 +350,7 @@ section.skills .skills-page .skills-card img:hover {
 
 /* Certifications Start */
 section.sertif {
-  height: auto;
+  padding-bottom: 60px;
   background-image: radial-gradient(#e3fdfd, #cbf1f5, #e3fdfd);
 }
 
@@ -403,10 +413,10 @@ section.sertif .sertif-page .sertif-card .sertif-description p {
 /* Contact Start */
 section.contact {
   display: flex;
+  padding-bottom: 60px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-image: radial-gradient(#a6e3e9, #cbf1f5, #e3fdfd);
 }
 
@@ -425,7 +435,7 @@ section.contact .contact-page .contact-top .description-top {
 section.contact .contact-page h1 {
   font-size: 2rem;
   text-transform: capitalize;
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 32px;
 }
 
