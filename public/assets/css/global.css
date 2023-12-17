@@ -583,19 +583,18 @@ footer {
     position: absolute;
     justify-content: space-evenly;
     top: 0;
-    width: 30%;
+    left: 0;
+    width: 50%;
     height: 100vh;
     align-items: center;
     flex-direction: column;
     background-image: radial-gradient(#e3fdfd, #cbf1f5, #e3fdfd);
-
     z-index: -1;
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
 
   .menu-toggle {
     display: flex;
-    align-items: end;
   }
 
   nav ul.slide {

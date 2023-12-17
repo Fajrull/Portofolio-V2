@@ -8,6 +8,20 @@ const ContactContent = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const name = form.current.user_name.value;
+    const email = form.current.user_email.value;
+    const message = form.current.message.value;
+
+    if (!name || !email || !message) {
+      // Menampilkan SweetAlert2 error message jika ada kolom yang kosong
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Please fill in all fields.",
+      });
+      return; // Berhenti jika formulir tidak valid
+    }
+
     emailjs
       .sendForm(
         "service_xm7pnso",
