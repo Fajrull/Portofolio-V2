@@ -1,4 +1,42 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
+
 const ContactContent = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_xm7pnso",
+        "template_q53ui8l",
+        form.current,
+        "bj9C8D1hJs4yoPXE_"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+
+          // Display SweetAlert2 success message
+          Swal.fire({
+            icon: "success",
+            title: "Success!",
+            text: "Your message has been sent successfully.",
+          });
+
+          // Reset form fields
+          form.current.reset();
+        },
+
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section className="contact" id="contact">
       <div className="contact-page">
@@ -10,14 +48,14 @@ const ContactContent = () => {
           </p>
         </div>
 
-        <form name="portofolio-contact-form">
+        <form ref={form} onSubmit={sendEmail}>
           <div className="form-top">
             <div className="form-title">
               <label htmlFor="name">Nama :</label>
               <input
                 type="text"
                 id="name"
-                name="nama"
+                name="user_name"
                 placeholder="Your name..."
               />
             </div>
@@ -26,7 +64,7 @@ const ContactContent = () => {
               <input
                 type="email"
                 id="email"
-                name="email"
+                name="user_email"
                 placeholder="Your email..."
               />
             </div>
@@ -35,7 +73,7 @@ const ContactContent = () => {
             <label htmlFor="subject">Message :</label>
             <textarea
               id="subject"
-              name="pesan"
+              name="message"
               cols="30"
               rows="10"
               placeholder="Write something ..."
