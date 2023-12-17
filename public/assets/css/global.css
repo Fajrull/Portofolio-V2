@@ -651,7 +651,7 @@ footer {
   }
 
   section.about h1 {
-    padding-top: 150px;
+    padding-top: 60px;
   }
 
   section.about .about-page .about-description {
@@ -681,10 +681,24 @@ footer {
     width: 140px;
   }
 
+  section.project .project-title h1 {
+    padding-top: 60px;
+  }
+
+  /* Skills */
+
+  section.skills .skills-page h1 {
+    padding-top: 60px;
+  }
+
   /* Sertifikat */
 
   section.sertif .sertif-page .sertif-card {
     width: 360px;
+  }
+
+  section.sertif .sertif-title h1 {
+    padding-top: 60px;
   }
 
   /* Contact */
@@ -728,5 +742,9 @@ footer {
 
   section.contact form .contact-btn button {
     margin-left: 360px;
+  }
+
+  section.contact .contact-page h1 {
+    padding-top: 60px;
   }
 }
