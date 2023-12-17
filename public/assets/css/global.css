@@ -651,7 +651,7 @@ footer {
   }
 
   section.about h1 {
-    padding-top: 60px;
+    padding-top: 50px;
   }
 
   section.about .about-page .about-description {
@@ -682,13 +682,13 @@ footer {
   }
 
   section.project .project-title h1 {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   /* Skills */
 
   section.skills .skills-page h1 {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   /* Sertifikat */
@@ -698,7 +698,7 @@ footer {
   }
 
   section.sertif .sertif-title h1 {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   /* Contact */
@@ -745,6 +745,6 @@ footer {
   }
 
   section.contact .contact-page h1 {
-    padding-top: 60px;
+    padding-top: 40px;
   }
 }
