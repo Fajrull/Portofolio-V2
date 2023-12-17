@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "lazysizes";
+import "lazysizes/plugins/parent-fit/ls.parent-fit";
 
 const CertificationContent = () => {
   useEffect(() => {
@@ -19,7 +21,7 @@ const CertificationContent = () => {
           <img
             src="/assets/img/serti/best-capstone.jpg"
             alt=""
-            loading="lazy"
+            className="lazyload"
           />
           <div className="sertif-description">
             <h3>Best Capstone Project</h3>
@@ -33,7 +35,11 @@ const CertificationContent = () => {
         </div>
 
         <div className="sertif-card" data-aos="fade-up">
-          <img src="/assets/img/serti/dasar-js.jpg" alt="" loading="lazy" />
+          <img
+            src="/assets/img/serti/dasar-js.jpg"
+            alt=""
+            className="lazyload"
+          />
           <div className="sertif-description">
             <h3>Belajar Dasar Pemograman Javascript</h3>
             <span>Dicoding</span>
@@ -47,7 +53,11 @@ const CertificationContent = () => {
         </div>
 
         <div className="sertif-card" data-aos="fade-up">
-          <img src="/assets/img/serti/kelulusan.jpg" alt="" loading="lazy" />
+          <img
+            src="/assets/img/serti/kelulusan.jpg"
+            alt=""
+            className="lazyload"
+          />
           <div className="sertif-description">
             <h3>Sertifikat Kelulusan SIB Batch 3</h3>
             <span>Dicoding</span>
@@ -62,7 +72,7 @@ const CertificationContent = () => {
           <img
             src="/assets/img/serti/fe-fundamental.jpg"
             alt=""
-            loading="lazy"
+            className="lazyload"
           />
           <div className="sertif-description">
             <h3>Belajar Fundamental Front-End Web Developer</h3>
@@ -76,7 +86,11 @@ const CertificationContent = () => {
         </div>
 
         <div className="sertif-card" data-aos="fade-up">
-          <img src="/assets/img/serti/fe-expert.jpg" alt="" loading="lazy" />
+          <img
+            src="/assets/img/serti/fe-expert.jpg"
+            alt=""
+            className="lazyload"
+          />
           <div className="sertif-description">
             <h3>Menjadi Front-End Web Developer Expert</h3>
             <span>Dicoding</span>
@@ -89,7 +103,11 @@ const CertificationContent = () => {
         </div>
 
         <div className="sertif-card" data-aos="fade-up">
-          <img src="/assets/img/serti/backend.jpg" alt="" loading="lazy" />
+          <img
+            src="/assets/img/serti/backend.jpg"
+            alt=""
+            className="lazyload"
+          />
           <div className="sertif-description">
             <h3>Membuat Aplikasi Back-End Untuk Pemula</h3>
             <span>Dicoding</span>
@@ -105,7 +123,7 @@ const CertificationContent = () => {
           <img
             src="/assets/img/serti/webdev-skilvul.jpg"
             alt=""
-            loading="lazy"
+            className="lazyload"
           />
           <div className="sertif-description">
             <h3>Web Development Pemula</h3>
@@ -118,7 +136,7 @@ const CertificationContent = () => {
         </div>
 
         <div className="sertif-card" data-aos="fade-up">
-          <img src="/assets/img/serti/react.jpg" alt="" loading="lazy" />
+          <img src="/assets/img/serti/react.jpg" alt="" className="lazyload" />
           <div className="sertif-description">
             <h3>Belajar Membuat Aplikasi Web dengan React</h3>
             <span>Dicoding</span>
@@ -130,7 +148,7 @@ const CertificationContent = () => {
         </div>
 
         <div className="sertif-card" data-aos="fade-up">
-          <img src="/assets/img/serti/ycab.jpg" alt="" loading="lazy" />
+          <img src="/assets/img/serti/ycab.jpg" alt="" className="lazyload" />
           <div className="sertif-description">
             <h3>Career Preparation</h3>
             <span>YCAB</span>

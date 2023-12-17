@@ -1,3 +1,6 @@
+import "lazysizes";
+import "lazysizes/plugins/parent-fit/ls.parent-fit";
+
 const ProjectContentWeb = () => {
   return (
     <>
@@ -6,7 +9,7 @@ const ProjectContentWeb = () => {
           <img
             src="/assets/img/project/growth.png"
             alt="image"
-            loading="lazy"
+            className="lazyload"
           />
           <div className="project-description">
             <h1>Growth Familie</h1>
@@ -20,16 +23,36 @@ const ProjectContentWeb = () => {
             </p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/html.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/css.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/js.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/html.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/css.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/js.png"
+              alt="image"
+              className="lazyload"
+            />
             <img
               src="/assets/img/icon/bootstrap.png"
               alt="image"
-              loading="lazy"
+              className="lazyload"
             />
-            <img src="/assets/img/icon/node.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/mongo.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/node.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/mongo.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
           <div className="project-btn">
             <a
@@ -58,7 +81,7 @@ const ProjectContentWeb = () => {
           <img
             src="/assets/img/project/usahaoptima.png"
             alt="image"
-            loading="lazy"
+            className="lazyload"
           />
           <div className="project-description">
             <h1>Usahaoptima</h1>
@@ -70,21 +93,41 @@ const ProjectContentWeb = () => {
             </p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/html.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/css.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/html.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/css.png"
+              alt="image"
+              className="lazyload"
+            />
             <img
               src="/assets/img/icon/bootstrap.png"
               alt="image"
-              loading="lazy"
+              className="lazyload"
             />
-            <img src="/assets/img/icon/react.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/node.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/react.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/node.png"
+              alt="image"
+              className="lazyload"
+            />
             <img
               src="/assets/img/icon/express.png"
               alt="image"
-              loading="lazy"
+              className="lazyload"
             />
-            <img src="/assets/img/icon/mongo.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/mongo.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
           <div className="project-btn">
             <a
@@ -113,7 +156,7 @@ const ProjectContentWeb = () => {
           <img
             src="/assets/img/project/restaurant.png"
             alt="image"
-            loading="lazy"
+            className="lazyload"
           />
           <div className="project-description">
             <h1>Esszimmer</h1>
@@ -126,10 +169,26 @@ const ProjectContentWeb = () => {
             </p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/html.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/css.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/js.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/node.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/html.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/css.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/js.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/node.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
           <div className="project-btn">
             <a
@@ -154,7 +213,7 @@ const ProjectContentWeb = () => {
           <img
             src="/assets/img/project/portofolio.png"
             alt="image"
-            loading="lazy"
+            className="lazyload"
           />
           <div className="project-description">
             <h1>Portofolio</h1>
@@ -165,15 +224,31 @@ const ProjectContentWeb = () => {
             </p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/html.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/css.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/js.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/html.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/css.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/js.png"
+              alt="image"
+              className="lazyload"
+            />
             <img
               src="/assets/img/icon/bootstrap.png"
               alt="image"
-              loading="lazy"
+              className="lazyload"
             />
-            <img src="/assets/img/icon/node.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/node.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
           <div className="project-btn">
             <a
@@ -199,7 +274,11 @@ const ProjectContentWeb = () => {
         </div>
 
         <div className="project-card" data-aos="fade-up">
-          <img src="/assets/img/project/notes.png" alt="image" loading="lazy" />
+          <img
+            src="/assets/img/project/notes.png"
+            alt="image"
+            className="lazyload"
+          />
           <div className="project-description">
             <h1>Notes App</h1>
             <p>
@@ -210,9 +289,21 @@ const ProjectContentWeb = () => {
             </p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/react.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/css.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/node.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/react.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/css.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/node.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
           <div className="project-btn">
             <a
@@ -237,7 +328,7 @@ const ProjectContentWeb = () => {
           <img
             src="/assets/img/project/bookshelf.png"
             alt="image"
-            loading="lazy"
+            className="lazyload"
           />
           <div className="project-description">
             <h1>Bookshelf Apps</h1>
@@ -248,9 +339,21 @@ const ProjectContentWeb = () => {
             </p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/html.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/css.png" alt="image" loading="lazy" />
-            <img src="/assets/img/icon/js.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/html.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/css.png"
+              alt="image"
+              className="lazyload"
+            />
+            <img
+              src="/assets/img/icon/js.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
           <div className="project-btn">
             <a

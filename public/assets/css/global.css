@@ -169,7 +169,6 @@ section.hero .hero-btn button i {
 /* About Start */
 section.about {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -516,3 +515,81 @@ footer {
   background-image: radial-gradient(#e3fdfd, #cbf1f5, #e3fdfd);
 }
 /* Footer End */
+
+@media only screen and (max-width: 600px) {
+  /* .navbar {
+    display: none;
+  } */
+
+  /* Home */
+  section.hero {
+    padding: 32px;
+    text-align: center;
+  }
+
+  section.hero .hero-title h1 {
+    font-size: 1.75rem;
+  }
+
+  section.hero .hero-title img {
+    margin-top: 150px;
+  }
+
+  section.hero .hero-btn {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .hero-icons .fa-brands {
+    margin-bottom: 60px;
+  }
+
+  section.hero .hero-btn button {
+    margin: 8px;
+  }
+
+  /* About */
+  section.about {
+    height: 120vh;
+    padding: 32px;
+  }
+
+  section.about h1 {
+    padding-top: 150px;
+  }
+
+  section.about .about-page .about-description {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section.about .about-page .about-description p {
+    width: 100%;
+    order: 2;
+    margin-top: 32px;
+  }
+
+  section.about .about-page .about-description img {
+    width: 100%;
+    order: 1;
+  }
+
+  /* Project */
+
+  section.project .project-page .project-card {
+    width: 360px;
+  }
+
+  section.project .project-page .project-card .project-btn button {
+    width: 140px;
+  }
+
+  /* Sertifikat */
+
+  section.sertif .sertif-page .sertif-card {
+    width: 360px;
+  }
+
+  /* Contact */
+}

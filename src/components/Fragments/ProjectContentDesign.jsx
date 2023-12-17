@@ -1,3 +1,6 @@
+import "lazysizes";
+import "lazysizes/plugins/parent-fit/ls.parent-fit";
+
 const ProjectContentDesign = () => {
   return (
     <>
@@ -17,7 +20,11 @@ const ProjectContentDesign = () => {
             <p>Membuat Design Usahaoptima menggunakan Figma</p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/figma.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/figma.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
         </div>
 
@@ -36,7 +43,11 @@ const ProjectContentDesign = () => {
             <p>Membuat Design Growth Familie menggunakan Figma</p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/figma.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/figma.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
         </div>
       </div>

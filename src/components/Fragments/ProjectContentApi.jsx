@@ -1,3 +1,6 @@
+import "lazysizes";
+import "lazysizes/plugins/parent-fit/ls.parent-fit";
+
 const ProjectContentApi = () => {
   return (
     <>
@@ -6,42 +9,66 @@ const ProjectContentApi = () => {
           <img
             src="/assets/img/project/api-auth.png"
             alt="image"
-            loading="lazy"
+            className="lazyload"
           />
           <div className="project-description">
             <h1>API Auth Register</h1>
             <p>Create Web Service and RESTful API for Auth Register</p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/node.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/node.png"
+              alt="image"
+              className="lazyload"
+            />
             <img
               src="/assets/img/icon/express.png"
               alt="image"
-              loading="lazy"
+              className="lazyload"
             />
-            <img src="/assets/img/icon/mongo.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/mongo.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
         </div>
 
         <div className="project-card" data-aos="fade-up">
-          <img src="/assets/img/project/login.png" alt="image" loading="lazy" />
+          <img
+            src="/assets/img/project/login.png"
+            alt="image"
+            className="lazyload"
+          />
           <div className="project-description">
             <h1>API Auth Login</h1>
             <p>Create Web Service and RESTful API for Auth Login</p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/node.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/node.png"
+              alt="image"
+              className="lazyload"
+            />
             <img
               src="/assets/img/icon/express.png"
               alt="image"
-              loading="lazy"
+              className="lazyload"
             />
-            <img src="/assets/img/icon/mongo.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/mongo.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
         </div>
 
         <div className="project-card" data-aos="fade-up">
-          <img src="/assets/img/project/Crud.png" alt="image" loading="lazy" />
+          <img
+            src="/assets/img/project/Crud.png"
+            alt="image"
+            className="lazyload"
+          />
           <div className="project-description">
             <h1>API CRUD Todolist</h1>
             <p>
@@ -50,13 +77,21 @@ const ProjectContentApi = () => {
             </p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/node.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/node.png"
+              alt="image"
+              className="lazyload"
+            />
             <img
               src="/assets/img/icon/express.png"
               alt="image"
-              loading="lazy"
+              className="lazyload"
             />
-            <img src="/assets/img/icon/mongo.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/mongo.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
         </div>
 
@@ -64,7 +99,7 @@ const ProjectContentApi = () => {
           <img
             src="/assets/img/project/article.png"
             alt="image"
-            loading="lazy"
+            className="lazyload"
           />
           <div className="project-description">
             <h1>API CRUD Article</h1>
@@ -74,13 +109,21 @@ const ProjectContentApi = () => {
             </p>
           </div>
           <div className="project-icons">
-            <img src="/assets/img/icon/node.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/node.png"
+              alt="image"
+              className="lazyload"
+            />
             <img
               src="/assets/img/icon/express.png"
               alt="image"
-              loading="lazy"
+              className="lazyload"
             />
-            <img src="/assets/img/icon/MySQL.png" alt="image" loading="lazy" />
+            <img
+              src="/assets/img/icon/MySQL.png"
+              alt="image"
+              className="lazyload"
+            />
           </div>
         </div>
       </div>
