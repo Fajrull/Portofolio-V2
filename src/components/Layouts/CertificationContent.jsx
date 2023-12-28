@@ -19,6 +19,38 @@ const CertificationContent = () => {
       <div className="sertif-page">
         <div className="sertif-card" data-aos="fade-up">
           <img
+            src="/assets/img/serti/peserta-terbaik.jpg"
+            alt=""
+            className="lazyload"
+          />
+          <div className="sertif-description">
+            <h3>Best Participant</h3>
+            <span>Skilvul</span>
+            <p>
+              Terpilih sebagai Peserta Terbaik dengan nilai tertinggi di
+              bootcamp Skilvul
+            </p>
+          </div>
+        </div>
+
+        <div className="sertif-card" data-aos="fade-up">
+          <img
+            src="/assets/img/serti/grub-terbaik.jpg"
+            alt=""
+            className="lazyload"
+          />
+          <div className="sertif-description">
+            <h3>Best Group in DemoDay</h3>
+            <span>Skilvul</span>
+            <p>
+              Terpilih sebagai Project Terbaik dengan judul proyek "Usahaoptima"
+              pada Program Bootcamp SKilvul
+            </p>
+          </div>
+        </div>
+
+        <div className="sertif-card" data-aos="fade-up">
+          <img
             src="/assets/img/serti/best-capstone.jpg"
             alt=""
             className="lazyload"
@@ -30,6 +62,22 @@ const CertificationContent = () => {
               Terpilih sebagai Capstone Project Terbaik dengan judul proyek
               "Growth Familie" pada Program SIB Dicoding X Kampus Merdeka
               Angkatan 3
+            </p>
+          </div>
+        </div>
+
+        <div className="sertif-card" data-aos="fade-up">
+          <img
+            src="/assets/img/serti/kelulusan.jpg"
+            alt=""
+            className="lazyload"
+          />
+          <div className="sertif-description">
+            <h3>Sertifikat Kelulusan SIB Batch 3</h3>
+            <span>Dicoding</span>
+            <p>
+              Telah berhasil menyelesaikan Pelatihan Front-End Web dan Back-End
+              pada Program SIB Dicoding X Kampus Merdeka Angkatan 3
             </p>
           </div>
         </div>
@@ -54,16 +102,17 @@ const CertificationContent = () => {
 
         <div className="sertif-card" data-aos="fade-up">
           <img
-            src="/assets/img/serti/kelulusan.jpg"
+            src="/assets/img/serti/graduation-bootcamp.jpg"
             alt=""
             className="lazyload"
+            style={{ height: "344px" }}
           />
           <div className="sertif-description">
-            <h3>Sertifikat Kelulusan SIB Batch 3</h3>
-            <span>Dicoding</span>
+            <h3>Certificate of completion</h3>
+            <span>Skilvul</span>
             <p>
-              Telah berhasil menyelesaikan Pelatihan Front-End Web dan Back-End
-              pada Program SIB Dicoding X Kampus Merdeka Angkatan 3
+              Telah berhasil menyelesaikan bootcamp Fullstack developer di
+              Skilvul
             </p>
           </div>
         </div>
